@@ -1,7 +1,7 @@
 <?php
 const UPLOAD_DIR = 'uploads/';
 const MAX_FILE_SIZE = 5 * 1024 * 1024;
-const ALLOWED_TYPES = ['text/plain', 'text/csv', 'application/json', 'application/xml', 'text/html'];
+const ALLOWED_TYPES = ['text/plain', 'text/csv', 'application/json', 'application/xml', 'text/html', 'application/pdf'];
 const MESSAGES = [
     'invalid_type' => 'Type de fichier non autorisé. Seuls les fichiers textuels (TXT, CSV, JSON, XML, HTML) sont acceptés.',
     'too_large' => 'Le fichier est trop volumineux. Taille maximale : 5MB.',
